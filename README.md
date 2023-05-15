@@ -3,14 +3,17 @@ This repository contains a stopwatch project implemented in the C programming la
 
 ## Features
 Stopwatch functionality: The project implements a stopwatch that can start, stop, and reset.
-Timer1 in compare mode: The Timer1 peripheral of the microcontroller is utilized in compare mode to measure the elapsed time.
-7-segment display: The result of the stopwatch is displayed on a 7-segment display using multiplexing technique.
-Simulation on Proteus: The entire system has been simulated on Proteus, allowing for testing and verification.
-Files
-main.c: Contains the main code for the stopwatch project.
-timer1.h and timer1.c: Timer1 library files providing functions for configuring and controlling the timer in compare mode.
-7segment.h and 7segment.c: 7-segment display library files providing functions for displaying numbers on a 7-segment display using multiplexing technique.
-README.md: Documentation file describing the project.
+### Timer1 in compare mode: 
+The Timer1 peripheral of the microcontroller is utilized in compare mode to measure the elapsed time.
+### 7-segment display: 
+The result of the stopwatch is displayed on a 7-segment display using multiplexing technique.
+### Simulation on Proteus: 
+The entire system has been simulated on Proteus, allowing for testing and verification.
+## Files
+#### main.c: Contains the main code for the stopwatch project.
+#### timer1.h and timer1.c: Timer1 library files providing functions for configuring and controlling the timer in compare mode.
+#### 7segment.h and 7segment.c: 7-segment display library files providing functions for displaying numbers on a 7-segment display using multiplexing technique.
+#### README.md: Documentation file describing the project.
 ## Simulation
 To simulate the project on Proteus, follow these steps:
 Open Proteus simulation file.
